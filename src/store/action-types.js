@@ -34,7 +34,9 @@ export const asyncInventory = [
     'SET_ANSIBLE_HOST',
     'LOAD_TAGS',
     'ALL_TAGS',
-    'OPERATING_SYSTEMS'
+    'OPERATING_SYSTEMS',
+    'GROUPS',
+    'GROUP_DETAIL'
 ];
 
 export const systemIssues = [
@@ -58,7 +60,6 @@ export const SET_ANSIBLE_HOST = 'SET_ANSIBLE_HOST';
 export const UPDATE_ENTITIES = 'UPDATE_ENTITIES';
 export const CHANGE_SORT = 'CHANGE_SORT';
 export const FILTER_ENTITIES = 'FILTER_ENTITIES';
-export const APPLICATION_SELECTED = 'APPLICATION_SELECTED';
 export const SHOW_ENTITIES = 'SHOW_ENTITIES';
 export const FILTER_SELECT = 'FILTER_SELECT';
 export const ENTITIES_LOADING = 'ENTITIES_LOADING';

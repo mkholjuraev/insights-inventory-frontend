@@ -1,3 +1,117 @@
+# [1.12.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.11.0...v1.12.0) (2023-03-15)
+
+
+### Features
+
+* **ESSNTL-4195:** Inventory table - group filter ([#1776](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1776)) ([358400e](https://github.com/RedHatInsights/insights-inventory-frontend/commit/358400ec23e1f64933cd2dfea3cd92fc568459b8))
+
+# [1.11.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.10.1...v1.11.0) (2023-03-15)
+
+
+### Features
+
+* **ESSNTL-4196:** Show group detail info tab ([#1792](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1792)) ([f0f421b](https://github.com/RedHatInsights/insights-inventory-frontend/commit/f0f421b0b5b2f577c3fd594f663c699ffcd44358))
+
+## [1.10.1](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.10.0...v1.10.1) (2023-03-14)
+
+
+### Bug Fixes
+
+* **ESSNTL-3760:** handle insights disconnected hosts for patch, advisor, vuln tabs ([#1791](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1791)) ([f8d7afd](https://github.com/RedHatInsights/insights-inventory-frontend/commit/f8d7afd9fde1f1a85aa1ff2033a6cdceb3019235))
+
+# [1.10.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.9.2...v1.10.0) (2023-03-14)
+
+
+### Features
+
+* **ESSNTL-3727:** Display group systems ([#1790](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1790)) ([08408ad](https://github.com/RedHatInsights/insights-inventory-frontend/commit/08408addd3fb27a333e2c376e9290b9049757860))
+
+## [1.9.2](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.9.1...v1.9.2) (2023-03-13)
+
+
+### Bug Fixes
+
+* **ESSNTL-4404:** global filters and tags ([#1788](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1788)) ([b10ce31](https://github.com/RedHatInsights/insights-inventory-frontend/commit/b10ce310766b6b463d82b5ed675328b411a28a14))
+
+## [1.9.1](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.9.0...v1.9.1) (2023-03-13)
+
+# [1.9.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.8.0...v1.9.0) (2023-03-13)
+
+
+### Features
+
+* **ESSNTL-3737, -3735:** Rename and delete group ([#1780](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1780)) ([bdf4c6a](https://github.com/RedHatInsights/insights-inventory-frontend/commit/bdf4c6ac30688e2f76f1e2e164e9e1438e255485))
+
+# [1.8.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.7.2...v1.8.0) (2023-03-07)
+
+
+### Features
+
+* **ESSNTL-4056:** Add lastSeen filter ([#1781](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1781)) ([7bb6ac8](https://github.com/RedHatInsights/insights-inventory-frontend/commit/7bb6ac85fcb5fc7c31514066c2ef174868213687))
+
+## [1.7.2](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.7.1...v1.7.2) (2023-03-07)
+
+## [1.7.1](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.7.0...v1.7.1) (2023-03-06)
+
+
+### Bug Fixes
+
+* **ADVISOR-3016:** Add perPage arg to getEntities ([#1777](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1777)) ([6b42a24](https://github.com/RedHatInsights/insights-inventory-frontend/commit/6b42a24cb93f9b89fcb5df6d11dd370be29d2c22))
+
+# [1.7.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.6.0...v1.7.0) (2023-03-03)
+
+
+### Features
+
+* **Inventory table:** Add static groups column ([#1772](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1772)) ([94db33f](https://github.com/RedHatInsights/insights-inventory-frontend/commit/94db33fb6f1268271a1d5f8b7bb4d6b747eb3940))
+
+# [1.6.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.5.0...v1.6.0) (2023-03-03)
+
+
+### Features
+
+* **ESSNTL-4365:** Enable actions in the groups table ([#1779](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1779)) ([aa8ed51](https://github.com/RedHatInsights/insights-inventory-frontend/commit/aa8ed51285637b8a00917d92f715a99689278233))
+
+# [1.5.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.4.0...v1.5.0) (2023-03-01)
+
+
+### Bug Fixes
+
+* **ESSNTL-4387:** Pass down inventoryId to Advisor ([#1773](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1773)) ([72e017e](https://github.com/RedHatInsights/insights-inventory-frontend/commit/72e017ebb0eb461ddc9e3a38cec47fa41685f97e))
+
+
+### Features
+
+* **ESSNTL-4365:** Select rows in the groups table ([#1775](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1775)) ([2d81ac7](https://github.com/RedHatInsights/insights-inventory-frontend/commit/2d81ac7e5f873361b887b0bfa8a1e4eb4e613c79))
+
+# [1.4.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.3.1...v1.4.0) (2023-02-22)
+
+
+### Features
+
+* **ESSNTL-3726:** Add the /groups/%id page (group detail) ([#1771](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1771)) ([ca24e55](https://github.com/RedHatInsights/insights-inventory-frontend/commit/ca24e555ac3a3db7d7fe06acce90fa7b986dbc1c))
+
+## [1.3.1](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.3.0...v1.3.1) (2023-02-22)
+
+
+### Performance Improvements
+
+* **RHIF-167:** get rid of activeApps in redux ([#1754](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1754)) ([11be618](https://github.com/RedHatInsights/insights-inventory-frontend/commit/11be61800eb591bda38908c04cd85578fc611105))
+
+# [1.3.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.2.0...v1.3.0) (2023-02-16)
+
+
+### Features
+
+* **ESSNTL-4194:** Show groups in a table ([#1767](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1767)) ([b80c00e](https://github.com/RedHatInsights/insights-inventory-frontend/commit/b80c00e956d40932aa42f462989ff476a7a3f9ec))
+
+# [1.2.0](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.1.2...v1.2.0) (2023-02-15)
+
+
+### Features
+
+* **inventory grops:** group name modal  ([#1755](https://github.com/RedHatInsights/insights-inventory-frontend/issues/1755)) ([d9f1925](https://github.com/RedHatInsights/insights-inventory-frontend/commit/d9f1925e8b534ec3351a5a55dd45d17b00dd646b))
+
 ## [1.1.2](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.1.1...v1.1.2) (2023-02-08)
 
 ## [1.1.1](https://github.com/RedHatInsights/insights-inventory-frontend/compare/v1.1.0...v1.1.1) (2023-02-08)

@@ -21,6 +21,7 @@ import InsightsDisconnected from '../Utilities/InsightsDisconnected';
 import OperatingSystemFormatter from '../Utilities/OperatingSystemFormatter';
 import { Tooltip } from '@patternfly/react-core';
 import { verifyCulledInsightsClient } from '../Utilities/sharedFunctions';
+import { fitContent } from '@patternfly/react-table';
 
 export const defaultState = {
     loaded: false,
@@ -28,6 +29,7 @@ export const defaultState = {
     allTagsLoaded: false,
     operatingSystems: [],
     operatingSystemsLoaded: false,
+    groups: [],
     invConfig: {},
     sortBy: {
         key: 'updated',
@@ -35,13 +37,20 @@ export const defaultState = {
     }
 };
 
-export const defaultColumns = () => ([
+export const defaultColumns = (groupsEnabled = false) => ([
     {
         key: 'display_name',
         sortKey: 'display_name',
         title: 'Name',
         renderFunc: TitleColumn
     },
+    ...(groupsEnabled ? [{
+        key: 'groups',
+        sortKey: 'groups',
+        title: 'Groups',
+        props: { width: 10 },
+        renderFunc: () => <React.Fragment>N/A</React.Fragment>
+    }] : []),
     {
         key: 'tags',
         title: 'Tags',
@@ -86,7 +95,8 @@ export const defaultColumns = () => ([
                 }
             > <DateFormat date={ value } /> </CullingInformation> : new Date(value).toLocaleString();
         },
-        props: { width: 10 }
+        props: { width: 10 },
+        transforms: [fitContent]
     }
 ]);
 
