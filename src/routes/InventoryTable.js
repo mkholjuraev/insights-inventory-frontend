@@ -225,7 +225,7 @@ const Inventory = ({
     return (
         <React.Fragment>
             <PageHeader className="pf-m-light">
-                <PageHeaderTitle title='Inventory'/>
+                <PageHeaderTitle title='Systems'/>
             </PageHeader>
             <Main>
                 <Grid gutter="md">
